@@ -35,26 +35,6 @@ In this repository, you will find the foundational elements of Microservices by 
 - ASP.NET Core Web Application with Bootstrap 5
 - Entity Framework Core with SQL Server Database
 
-## Is This Repository for You?
-
-This repository is designed for developers who enjoy hands-on programming. The emphasis is on practical learning, with approximately 90% of the lessons involving active coding along with the instructor on the project. If you like coding from scratch and understanding the basics, this repository is a perfect fit.
-
-By the end of your exploration of this repository, you will have worked on an application comprising 7 fully working .NET-based Microservices. More importantly, you will understand every line of code, how the Microservices work together, and why the final implementation was chosen.
-
-## Prerequisites
-
-- .NET Core CRUD experience
-- .NET API CRUD experience
-- Entity Framework Core CRUD experience
-- Visual Studio 2019 / 2019 Preview (if using .NET 8)
-- SQL Server Management Studio 2018
-
-## Target Audience
-
-- Students looking to explore Microservices with .NET Core
-- Architects interested in learning how to architect Microservices effectively
-- Students eager to understand communications with Azure Service Bus
-- Students aiming to grasp the basics of Identity Server
 
 ## What You'll Learn
 
