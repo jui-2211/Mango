@@ -1,5 +1,4 @@
 # .NET Core Microservices - The Complete Guide (.NET 8)
-
 ## Repository Overview
 
 In this repository, you will find the foundational elements of Microservices by progressively building a real-world Microservices-based application with .NET 8. The step-by-step approach includes constructing multiple Microservices, and for authentication and authorization, .NET Identity will be employed.
@@ -36,7 +35,7 @@ In this repository, you will find the foundational elements of Microservices by 
 - Entity Framework Core with SQL Server Database
 
 
-## What You'll Learn
+## Main Aim in the project 
 
 - .NET Core Microservices - The Complete Guide (.NET 8)
 - Implementing 7 Microservices using .NET 8
