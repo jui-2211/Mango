@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CouponDTO>
+﻿@model IEnumerable<CouponDto>
 
 <div class="card shadow border-0 mt-4">
 	<div class="card-header bg-secondary bg-gradient ml-0 py-3">
@@ -33,24 +33,22 @@
 				</tr>
 			</thead>
 			<tbody>
-				@foreach (var item in Model)
+				@foreach(var item in Model)
 				{
-					<tr>
-						<td>
-							@item.CouponCode
-						</td>
-						<td>
-							@((item.DiscountAmount).ToString("c"))
-						</td>
+				<tr>
+					<td> @item.CouponCode
+					</td>
+					<td> @((item.DiscountAmount).ToString("c"))
+					</td>
 						<td>
 							@((item.MinAmount).ToString("c"))
-						</td>
-						<td>
-							<a asp-action="CouponDelete"  asp-route-couponId="@item.CouponId" class="btn btn-danger">
-								<i class="bi bi-trash"></i>
-							</a>
-						</td>
-					</tr>
+					</td>
+					<td>
+							<a asp-action="CouponDelete" asp-route-couponId="@item.CouponId" class="btn btn-danger">
+							<i class="bi bi-trash"></i>
+						</a>
+					</td>
+				</tr>
 				}
 			</tbody>
 		</table>
