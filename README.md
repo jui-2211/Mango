@@ -35,7 +35,7 @@ In this repository, you will find the foundational elements of Microservices by 
 - Entity Framework Core with SQL Server Database
 
 
-## Main Aim in the project 
+## Main Aim in the project ..
 
 - .NET Core Microservices - The Complete Guide (.NET 8)
 - Implementing 7 Microservices using .NET 8
